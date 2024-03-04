@@ -1,0 +1,43 @@
+CSS - Cascading Style Sheets
+    - Used to add styles to HTML Structure.
+
+
+Different Ways To Add Styles 
+
+    - Inline
+        - <tag style="property:value;">
+    - Internal CSS
+        - Put styles in style tag (in head tag).
+    - External CSS
+        - Link the external style sheet using link tag.
+        - <link href="styles.css" rel="stylesheet">
+        - Dumb Way to use this.
+
+    - Priority => inline css >>> external == internal style sheets (will be modified based on position where it is defined).
+
+Favicons
+    - Small Icons that is associated with a website that appear in the browser tab, bookmarks and other places.
+    - Included in head tag.
+    - <link rel="icon" href="" type="image/x-icon">
+
+Types Of Selectors
+    - Simple Selectors
+        - Element p{}
+        - Class .className{}
+        - Id #idName{}
+    - Universal Selector (*) selects everything
+    - Grouping Selector p,#name{}
+    - Nested Selectors p#name{}
+
+    - Specificity Order (id>class>element)
+
+    - Psuedo Selectors allow you to select elements based on thier state.
+        -a:hover{} (onhovering on achor tag)
+
+
+Colors 
+    - colors names (red)
+    - hex code (#FFFFFF)
+    - rgb(x,x,x) (0-255)
+    - rgba(x,x,x,y) (opacity 0 - 1)
+    - hsl && hsla
